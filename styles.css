@@ -272,6 +272,25 @@ ul { list-style: none; }
 
 .accent { color: var(--red); }
 
+.hero-tagline {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgba(255,255,255,.85);
+  margin-bottom: 1rem;
+  letter-spacing: .3px;
+}
+
+.tagline-code {
+  font-family: 'Courier New', monospace;
+  color: var(--red);
+  background: rgba(230,57,70,.12);
+  border: 1px solid rgba(230,57,70,.3);
+  padding: .15rem .5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
 .hero-sub {
   font-size: 1.15rem;
   color: rgba(255,255,255,.72);
