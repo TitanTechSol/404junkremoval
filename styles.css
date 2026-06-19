@@ -336,7 +336,12 @@ ul { list-style: none; }
   font-weight: 700;
   font-size: .9rem;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: .4rem;
 }
+
+.trust-item i { color: rgba(255,255,255,.9); }
 
 /* ===== SERVICES ===== */
 .services {
@@ -384,8 +389,16 @@ ul { list-style: none; }
 }
 
 .service-icon {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
+  color: var(--red);
   margin-bottom: 1rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(230,57,70,.1);
+  border-radius: 10px;
 }
 
 .service-card h3 {
@@ -428,9 +441,17 @@ ul { list-style: none; }
 }
 
 .why-icon {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
+  color: var(--red);
   flex-shrink: 0;
-  margin-top: .1rem;
+  margin-top: .15rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(230,57,70,.1);
+  border-radius: 8px;
 }
 
 .why-list strong {
@@ -610,8 +631,10 @@ ul { list-style: none; }
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: .4rem;
+  gap: .5rem;
 }
+
+.contact-details i { color: var(--red); }
 
 /* ===== FOOTER ===== */
 .footer {
